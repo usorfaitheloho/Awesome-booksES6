@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.nav-bar.listBtn {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.nav-bar.listBtn :hover {
+  transform: scale(0.98);
+  color: aqua;
+}
+
+.nav-item {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.nav-item > ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item > ul > li {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+li > hr {
+  border: 1px solid #000;
+  align-items: center;
+  height: 20px;
+  margin-left: 5px;
+}
+
+li > a {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nav-bar a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.date_time {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: 7%;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+section {
+  width: 80%;
+}
+
+.booklist {
+  display: none;
+}
+
+.addbooks {
+  display: none;
+}
+
+.contact {
+  display: none;
+  max-width: 500px;
+}
+
+.active {
+  display: block !important;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.container h2 {
+  margin: 6px;
+}
+
+.list-section {
+  width: 100%;
+  border: 3px solid #000;
+  padding-right: 5px;
+}
+
+.bookBlock {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+
+.bookBlock:nth-child(odd) {
+  background-color: rgb(209, 208, 208);
+}
+
+.contact_header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  max-width: 80%;
+  margin: 20px 40px;
+  margin-left: 100px !important;
+  text-align: left;
+  width: 90%;
+}
+
+.contact ul > li + li {
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form > * + * {
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 2px solid black;
+  width: 100%;
+}
+
+button {
+  border: 3px solid black;
+  margin-bottom: 10px;
+  align-self: flex-end;
+  box-shadow: 2px 2px #000;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+.remove-btn {
+  height: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  border: 2px solid black;
+  background-color: #fff;
+  align-self: center;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 3px 3px #000;
+}
+
+footer {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
