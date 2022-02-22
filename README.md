@@ -3,11 +3,9 @@
 
 This is a pair programming project that allows users to add and remove books from a list using javascript objects and arrays
 
-Our goal here is to Build a book application with add and remove feature from scratch using JavaScripts. click [here] (https://abenezer-tilahun.github.io/Awesome-books/) to see deployed live version
+The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://abenezer-tilahun.github.io/Awesome-books/) to see deployed live version
 
-![screenshot](images/Screenshoot.PNG)
-![screenshot](images/Screenshoot-1.PNG)
-![screenshot](images/Screenshoot-2.PNG)
+![screenshot](images/Screenshoot-3.PNG)
 
 ## Features implemented so far
 - Add book feature
@@ -30,16 +28,14 @@ To get a local copy up and running follow these simple example steps.
 - Create a github repository.
 
 ### Setup
-- git clone https://github.com/Abenezer-Tilahun/Awesome-books.git
-- cd capstone-Awesome-books/
+- git clone https://github.com/usorfaitheloho/Awesome-booksES6.git
+- cd Awesome-booksES6/
 
 
 ## Authors
 
-👤 **Abanezer Tilahun**
 👤 **Faith Eloho usor**
 
-- GitHub: [@githubhandle](https://github.com/Abenezer-Tilahun)
 - GitHub: [@githubhandle](https://github.com/usorfaitheloho)
 
 
