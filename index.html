@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesome booksES6</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+        <a>
+            <h2>Awesome books</h2></a>
+        <div class="nav-item">
+        <ul>
+        <li><a class="listBtn" href="#book-list" >List</a> <hr/></li>
+        <li><a class="listBtn" href="#add-books" >Add New</a> <hr/></li>
+        <li><a class="listBtn" href="#contact" >Contact</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="date_time"></div>
+    </header>
+   <div class="container">
+       <section class="sec booklist active" id="book-list">
+          <h2 class="heading">All Awesome books</h2>
+          <ul class="list-section">
+        </ul>
+       </section>
+       <section class="sec addbooks" id="add-books">
+        <form>
+            <span class="heading">Add a new book </span>
+            <label for="title">
+               <input type="text" id="title" placeholder="Title" required>
+            </label>
+           
+            <label for="author">
+               <input type="text" id="author" placeholder="Author" required>
+            </label>
+           
+            <button type="submit"  class="btn-submit"> Add</button>
+        </form>
+       </section>
+      <section class="sec contact" id="contact">
+            <h1 class="contact_header">Contact information</h1>
+            <p>Do you have any question or you just want to say "hello" ? You can reach out to us! </p>
+            <ul class="contact_info">
+                <li><p> our email : Abenezerandfaith@gmail.com</p></li>
+                <li><p>Our phone number : 002346788 </p></li>
+                <li><p>Our address : sanfrascisco,USA </p></li>
+            </ul>
+       </section>
+    </div>
+   <footer>
+       <div class="nav-bar">
+           <a>
+        <h2> Copyright- Abenezer & Faith, 2022</h2>
+    </a>
+    </div>
+    </footer>
+<script src="./index.js" type="module"></script>    
+</body>
+</html>
