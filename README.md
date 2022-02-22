@@ -3,7 +3,7 @@
 
 This is a pair programming project that allows users to add and remove books from a list using javascript objects and arrays
 
-The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://abenezer-tilahun.github.io/Awesome-books/) to see deployed live version
+The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.. click [here] (https://usorfaitheloho.github.io/Awesome-booksES6/) to see deployed live version
 
 ![screenshot](images/Screenshoot-3.PNG)
 
