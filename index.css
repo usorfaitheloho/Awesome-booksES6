@@ -10,7 +10,11 @@ html {
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(images/background.jpg);
+  background-size: contain;
+
 }
+
 
 .nav-bar {
   display: flex;
@@ -67,6 +71,7 @@ li > a {
 .nav-bar a {
   list-style-type: none;
   text-decoration: none;
+  color: #000;
 }
 
 .date_time {
@@ -104,7 +109,6 @@ section {
 
 header {
   display: flex;
-  background-color: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -215,7 +219,6 @@ button {
 
 footer {
   display: flex;
-  background-color: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
